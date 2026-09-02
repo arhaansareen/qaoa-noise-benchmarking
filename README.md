@@ -1,7 +1,9 @@
 # Characterizing the Noise-Induced Divergence Depth in QAOA for MaxCut
 
-**Authors:** Arhaan Sareen, [Co-Author]
+**Authors:** Arhaan Sareen, Aditya Saxena
+
 **Affiliation:** QSYS 2026 Participant, Institute for Quantum Computing, University of Waterloo
+
 **Status:** [arXiv link TBD] · [JSR submission TBD]
 
 ---
