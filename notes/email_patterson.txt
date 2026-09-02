@@ -1,0 +1,20 @@
+Subject: Feedback Request on QAOA Benchmarking Preprint — QSYS 2026 Student
+
+Dear Everett,
+
+My name is Arhaan Sareen. I participated in QSYS 2026 at IQC this past summer, and that experience directly motivated the research project I'm writing up now.
+
+I'm working on a paper titled "Characterizing the Noise-Induced Divergence Depth in QAOA for MaxCut: A Hardware-Simulation Benchmarking Study." The core contribution is introducing and empirically measuring a quantity I call the divergence depth p* — the circuit depth at which hardware approximation ratio diverges significantly from noiseless simulation on IBM superconducting hardware. I benchmark QAOA across qubit sizes n=6–12 and depths p=1–5, comparing noiseless simulation, Qiskit's FakeSherbrooke noise model, and real IBM hardware.
+
+Your work on relativistic quantum information and the fundamental limits imposed by noise and causality has a natural connection to what I'm studying — characterizing where hardware noise imposes practical limits on near-term quantum computation. I'd genuinely value your technical perspective on the noise model and hardware comparison sections.
+
+My ask is modest: would you be willing to read a draft (~4,000 words) in late October 2026 and share written feedback? That's roughly one hour of your time.
+
+I also have a more procedural ask: this will be my first arXiv submission (targeting quant-ph, January 2027), and first-time submitters need an endorser. If you're willing, the endorsement is a one-click process arXiv emails you. No obligation at all — just thought I'd ask while reaching out.
+
+Happy to share my current outline or preliminary results now if that helps you decide.
+
+Thank you for considering this.
+
+Arhaan Sareen
+QSYS 2026, IQC | arhaansareen123@gmail.com

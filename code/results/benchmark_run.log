@@ -1,0 +1,303 @@
+============================================================
+QAOA MaxCut Benchmark Suite
+============================================================
+Noisy simulation: FakeSherbrooke enabled.
+Total evaluations: ~1200
+Estimated runtime (noiseless only): ~0.7–2.7 hours
+Estimated runtime (with noisy sim): ~3.3–10.0 hours
+Starting...
+
+Instances:   0%|          | 0/240 [00:00<?, ?instance/s]n=6 3regular seed=0:   0%|          | 0/240 [00:00<?, ?instance/s]n=6 3regular seed=0:   0%|          | 1/240 [00:14<57:48, 14.51s/instance]n=6 3regular seed=1:   0%|          | 1/240 [00:14<57:48, 14.51s/instance]n=6 3regular seed=1:   1%|          | 2/240 [00:27<54:33, 13.76s/instance]n=6 3regular seed=2:   1%|          | 2/240 [00:27<54:33, 13.76s/instance]n=6 3regular seed=2:   1%|▏         | 3/240 [00:42<55:32, 14.06s/instance]n=6 3regular seed=3:   1%|▏         | 3/240 [00:42<55:32, 14.06s/instance]n=6 3regular seed=3:   2%|▏         | 4/240 [00:56<55:46, 14.18s/instance]n=6 3regular seed=4:   2%|▏         | 4/240 [00:56<55:46, 14.18s/instance]n=6 3regular seed=4:   2%|▏         | 5/240 [01:10<55:43, 14.23s/instance]n=6 3regular seed=5:   2%|▏         | 5/240 [01:10<55:43, 14.23s/instance]n=6 3regular seed=5:   2%|▎         | 6/240 [01:39<1:15:14, 19.29s/instance]n=6 3regular seed=6:   2%|▎         | 6/240 [01:39<1:15:14, 19.29s/instance]n=6 3regular seed=6:   3%|▎         | 7/240 [02:01<1:18:22, 20.18s/instance]n=6 3regular seed=7:   3%|▎         | 7/240 [02:01<1:18:22, 20.18s/instance]n=6 3regular seed=7:   3%|▎         | 8/240 [02:19<1:14:28, 19.26s/instance]n=6 3regular seed=8:   3%|▎         | 8/240 [02:19<1:14:28, 19.26s/instance]n=6 3regular seed=8:   4%|▍         | 9/240 [02:33<1:08:32, 17.80s/instance]n=6 3regular seed=9:   4%|▍         | 9/240 [02:33<1:08:32, 17.80s/instance]n=6 3regular seed=9:   4%|▍         | 10/240 [02:48<1:04:16, 16.77s/instance]n=6 3regular seed=10:   4%|▍         | 10/240 [02:48<1:04:16, 16.77s/instance]n=6 3regular seed=10:   5%|▍         | 11/240 [03:03<1:01:52, 16.21s/instance]n=6 3regular seed=11:   5%|▍         | 11/240 [03:03<1:01:52, 16.21s/instance]n=6 3regular seed=11:   5%|▌         | 12/240 [03:18<1:00:10, 15.83s/instance]n=6 3regular seed=12:   5%|▌         | 12/240 [03:18<1:00:10, 15.83s/instance]n=6 3regular seed=12:   5%|▌         | 13/240 [03:33<58:46, 15.54s/instance]  n=6 3regular seed=13:   5%|▌         | 13/240 [03:33<58:46, 15.54s/instance]n=6 3regular seed=13:   6%|▌         | 14/240 [03:47<57:28, 15.26s/instance]n=6 3regular seed=14:   6%|▌         | 14/240 [03:47<57:28, 15.26s/instance]n=6 3regular seed=14:   6%|▋         | 15/240 [04:02<56:46, 15.14s/instance]n=6 3regular seed=15:   6%|▋         | 15/240 [04:02<56:46, 15.14s/instance]n=6 3regular seed=15:   7%|▋         | 16/240 [04:17<56:18, 15.08s/instance]n=6 3regular seed=16:   7%|▋         | 16/240 [04:17<56:18, 15.08s/instance]n=6 3regular seed=16:   7%|▋         | 17/240 [04:32<55:38, 14.97s/instance]n=6 3regular seed=17:   7%|▋         | 17/240 [04:32<55:38, 14.97s/instance]n=6 3regular seed=17:   8%|▊         | 18/240 [04:47<56:03, 15.15s/instance]n=6 3regular seed=18:   8%|▊         | 18/240 [04:47<56:03, 15.15s/instance]n=6 3regular seed=18:   8%|▊         | 19/240 [05:02<55:21, 15.03s/instance]n=6 3regular seed=19:   8%|▊         | 19/240 [05:02<55:21, 15.03s/instance]n=6 3regular seed=19:   8%|▊         | 20/240 [05:18<55:41, 15.19s/instance]n=6 3regular seed=20:   8%|▊         | 20/240 [05:18<55:41, 15.19s/instance]n=6 3regular seed=20:   9%|▉         | 21/240 [05:33<55:28, 15.20s/instance]n=6 3regular seed=21:   9%|▉         | 21/240 [05:33<55:28, 15.20s/instance]n=6 3regular seed=21:   9%|▉         | 22/240 [05:48<55:00, 15.14s/instance]n=6 3regular seed=22:   9%|▉         | 22/240 [05:48<55:00, 15.14s/instance]n=6 3regular seed=22:  10%|▉         | 23/240 [06:04<55:23, 15.32s/instance]n=6 3regular seed=23:  10%|▉         | 23/240 [06:04<55:23, 15.32s/instance]n=6 3regular seed=23:  10%|█         | 24/240 [06:26<1:03:15, 17.57s/instance]n=6 3regular seed=24:  10%|█         | 24/240 [06:26<1:03:15, 17.57s/instance]n=6 3regular seed=24:  10%|█         | 25/240 [06:43<1:02:25, 17.42s/instance]n=6 3regular seed=25:  10%|█         | 25/240 [06:43<1:02:25, 17.42s/instance]n=6 3regular seed=25:  11%|█         | 26/240 [06:58<58:55, 16.52s/instance]  n=6 3regular seed=26:  11%|█         | 26/240 [06:58<58:55, 16.52s/instance]n=6 3regular seed=26:  11%|█▏        | 27/240 [07:12<56:28, 15.91s/instance]n=6 3regular seed=27:  11%|█▏        | 27/240 [07:12<56:28, 15.91s/instance]n=6 3regular seed=27:  12%|█▏        | 28/240 [07:27<54:33, 15.44s/instance]n=6 3regular seed=28:  12%|█▏        | 28/240 [07:27<54:33, 15.44s/instance]n=6 3regular seed=28:  12%|█▏        | 29/240 [07:42<53:40, 15.26s/instance]n=6 3regular seed=29:  12%|█▏        | 29/240 [07:42<53:40, 15.26s/instance]n=6 3regular seed=29:  12%|█▎        | 30/240 [07:57<54:04, 15.45s/instance]n=6 erdos_renyi seed=0:  12%|█▎        | 30/240 [07:57<54:04, 15.45s/instance]n=6 erdos_renyi seed=0:  13%|█▎        | 31/240 [08:09<49:36, 14.24s/instance]n=6 erdos_renyi seed=1:  13%|█▎        | 31/240 [08:09<49:36, 14.24s/instance]n=6 erdos_renyi seed=1:  13%|█▎        | 32/240 [08:23<49:03, 14.15s/instance]n=6 erdos_renyi seed=2:  13%|█▎        | 32/240 [08:23<49:03, 14.15s/instance]n=6 erdos_renyi seed=2:  14%|█▍        | 33/240 [08:34<45:21, 13.15s/instance]n=6 erdos_renyi seed=3:  14%|█▍        | 33/240 [08:34<45:21, 13.15s/instance]n=6 erdos_renyi seed=4:  14%|█▍        | 33/240 [08:34<45:21, 13.15s/instance]n=6 erdos_renyi seed=4:  15%|█▍        | 35/240 [08:48<35:33, 10.41s/instance]n=6 erdos_renyi seed=5:  15%|█▍        | 35/240 [08:48<35:33, 10.41s/instance]n=6 erdos_renyi seed=6:  15%|█▍        | 35/240 [08:48<35:33, 10.41s/instance]n=6 erdos_renyi seed=6:  15%|█▌        | 37/240 [08:59<28:30,  8.42s/instance]n=6 erdos_renyi seed=7:  15%|█▌        | 37/240 [08:59<28:30,  8.42s/instance]n=6 erdos_renyi seed=7:  16%|█▌        | 38/240 [09:14<33:43, 10.02s/instance]n=6 erdos_renyi seed=8:  16%|█▌        | 38/240 [09:14<33:43, 10.02s/instance]n=6 erdos_renyi seed=8:  16%|█▋        | 39/240 [09:27<35:51, 10.70s/instance]n=6 erdos_renyi seed=9:  16%|█▋        | 39/240 [09:27<35:51, 10.70s/instance]n=6 erdos_renyi seed=9:  17%|█▋        | 40/240 [09:40<37:02, 11.11s/instance]n=6 erdos_renyi seed=10:  17%|█▋        | 40/240 [09:40<37:02, 11.11s/instance]n=6 erdos_renyi seed=10:  17%|█▋        | 41/240 [09:51<36:44, 11.08s/instance]n=6 erdos_renyi seed=11:  17%|█▋        | 41/240 [09:51<36:44, 11.08s/instance]n=6 erdos_renyi seed=11:  18%|█▊        | 42/240 [10:01<35:53, 10.88s/instance]n=6 erdos_renyi seed=12:  18%|█▊        | 42/240 [10:01<35:53, 10.88s/instance]n=6 erdos_renyi seed=12:  18%|█▊        | 43/240 [10:15<38:33, 11.74s/instance]n=6 erdos_renyi seed=13:  18%|█▊        | 43/240 [10:15<38:33, 11.74s/instance]n=6 erdos_renyi seed=13:  18%|█▊        | 44/240 [10:27<38:41, 11.84s/instance]n=6 erdos_renyi seed=14:  18%|█▊        | 44/240 [10:27<38:41, 11.84s/instance]n=6 erdos_renyi seed=14:  19%|█▉        | 45/240 [10:50<48:45, 15.00s/instance]n=6 erdos_renyi seed=15:  19%|█▉        | 45/240 [10:50<48:45, 15.00s/instance]n=6 erdos_renyi seed=15:  19%|█▉        | 46/240 [11:01<44:46, 13.85s/instance]n=6 erdos_renyi seed=16:  19%|█▉        | 46/240 [11:01<44:46, 13.85s/instance]n=6 erdos_renyi seed=16:  20%|█▉        | 47/240 [11:14<44:13, 13.75s/instance]n=6 erdos_renyi seed=17:  20%|█▉        | 47/240 [11:14<44:13, 13.75s/instance]n=6 erdos_renyi seed=17:  20%|██        | 48/240 [11:27<42:49, 13.38s/instance]n=6 erdos_renyi seed=18:  20%|██        | 48/240 [11:27<42:49, 13.38s/instance]n=6 erdos_renyi seed=18:  20%|██        | 49/240 [11:40<41:57, 13.18s/instance]n=6 erdos_renyi seed=19:  20%|██        | 49/240 [11:40<41:57, 13.18s/instance]n=6 erdos_renyi seed=19:  21%|██        | 50/240 [12:01<49:07, 15.52s/instance]n=6 erdos_renyi seed=20:  21%|██        | 50/240 [12:01<49:07, 15.52s/instance]n=6 erdos_renyi seed=21:  21%|██        | 50/240 [12:01<49:07, 15.52s/instance]n=6 erdos_renyi seed=21:  22%|██▏       | 52/240 [12:12<34:27, 11.00s/instance]n=6 erdos_renyi seed=22:  22%|██▏       | 52/240 [12:12<34:27, 11.00s/instance]n=6 erdos_renyi seed=22:  22%|██▏       | 53/240 [12:26<36:23, 11.68s/instance]n=6 erdos_renyi seed=23:  22%|██▏       | 53/240 [12:26<36:23, 11.68s/instance]n=6 erdos_renyi seed=23:  22%|██▎       | 54/240 [12:38<37:06, 11.97s/instance]n=6 erdos_renyi seed=24:  22%|██▎       | 54/240 [12:38<37:06, 11.97s/instance]n=6 erdos_renyi seed=25:  22%|██▎       | 54/240 [12:38<37:06, 11.97s/instance]n=6 erdos_renyi seed=25:  23%|██▎       | 56/240 [12:50<28:20,  9.24s/instance]n=6 erdos_renyi seed=26:  23%|██▎       | 56/240 [12:50<28:20,  9.24s/instance]n=6 erdos_renyi seed=27:  23%|██▎       | 56/240 [12:50<28:20,  9.24s/instance]n=6 erdos_renyi seed=27:  24%|██▍       | 58/240 [13:04<25:40,  8.46s/instance]n=6 erdos_renyi seed=28:  24%|██▍       | 58/240 [13:04<25:40,  8.46s/instance]n=6 erdos_renyi seed=28:  25%|██▍       | 59/240 [13:21<31:10, 10.33s/instance]n=6 erdos_renyi seed=29:  25%|██▍       | 59/240 [13:21<31:10, 10.33s/instance]n=6 erdos_renyi seed=29:  25%|██▌       | 60/240 [13:41<37:25, 12.48s/instance]n=8 3regular seed=0:  25%|██▌       | 60/240 [13:41<37:25, 12.48s/instance]    n=8 3regular seed=0:  25%|██▌       | 61/240 [14:37<1:09:46, 23.39s/instance]n=8 3regular seed=1:  25%|██▌       | 61/240 [14:37<1:09:46, 23.39s/instance]n=8 3regular seed=1:  26%|██▌       | 62/240 [15:16<1:21:55, 27.61s/instance]n=8 3regular seed=2:  26%|██▌       | 62/240 [15:16<1:21:55, 27.61s/instance]n=8 3regular seed=2:  26%|██▋       | 63/240 [15:49<1:25:28, 28.97s/instance]n=8 3regular seed=3:  26%|██▋       | 63/240 [15:49<1:25:28, 28.97s/instance]n=8 3regular seed=3:  27%|██▋       | 64/240 [16:15<1:22:50, 28.24s/instance]n=8 3regular seed=4:  27%|██▋       | 64/240 [16:15<1:22:50, 28.24s/instance]n=8 3regular seed=4:  27%|██▋       | 65/240 [16:44<1:22:23, 28.25s/instance]n=8 3regular seed=5:  27%|██▋       | 65/240 [16:44<1:22:23, 28.25s/instance]n=8 3regular seed=5:  28%|██▊       | 66/240 [17:08<1:18:32, 27.08s/instance]n=8 3regular seed=6:  28%|██▊       | 66/240 [17:08<1:18:32, 27.08s/instance]n=8 3regular seed=6:  28%|██▊       | 67/240 [17:32<1:15:51, 26.31s/instance]n=8 3regular seed=7:  28%|██▊       | 67/240 [17:32<1:15:51, 26.31s/instance]n=8 3regular seed=7:  28%|██▊       | 68/240 [17:56<1:13:39, 25.69s/instance]n=8 3regular seed=8:  28%|██▊       | 68/240 [17:56<1:13:39, 25.69s/instance]n=8 3regular seed=8:  29%|██▉       | 69/240 [18:22<1:12:50, 25.56s/instance]n=8 3regular seed=9:  29%|██▉       | 69/240 [18:22<1:12:50, 25.56s/instance]n=8 3regular seed=9:  29%|██▉       | 70/240 [18:45<1:10:42, 24.96s/instance]n=8 3regular seed=10:  29%|██▉       | 70/240 [18:45<1:10:42, 24.96s/instance]n=8 3regular seed=10:  30%|██▉       | 71/240 [19:10<1:10:17, 24.96s/instance]n=8 3regular seed=11:  30%|██▉       | 71/240 [19:10<1:10:17, 24.96s/instance]n=8 3regular seed=11:  30%|███       | 72/240 [19:40<1:13:43, 26.33s/instance]n=8 3regular seed=12:  30%|███       | 72/240 [19:40<1:13:43, 26.33s/instance]n=8 3regular seed=12:  30%|███       | 73/240 [20:11<1:17:10, 27.73s/instance]n=8 3regular seed=13:  30%|███       | 73/240 [20:11<1:17:10, 27.73s/instance]n=8 3regular seed=13:  31%|███       | 74/240 [20:37<1:15:33, 27.31s/instance]n=8 3regular seed=14:  31%|███       | 74/240 [20:37<1:15:33, 27.31s/instance]n=8 3regular seed=14:  31%|███▏      | 75/240 [21:00<1:11:13, 25.90s/instance]n=8 3regular seed=15:  31%|███▏      | 75/240 [21:00<1:11:13, 25.90s/instance]n=8 3regular seed=16:  31%|███▏      | 75/240 [21:00<1:11:13, 25.90s/instance]n=8 3regular seed=16:  32%|███▏      | 77/240 [21:14<46:42, 17.20s/instance]  n=8 3regular seed=17:  32%|███▏      | 77/240 [21:14<46:42, 17.20s/instance]n=8 3regular seed=17:  32%|███▎      | 78/240 [21:27<43:41, 16.18s/instance]n=8 3regular seed=18:  32%|███▎      | 78/240 [21:27<43:41, 16.18s/instance]n=8 3regular seed=18:  33%|███▎      | 79/240 [21:41<42:19, 15.77s/instance]n=8 3regular seed=19:  33%|███▎      | 79/240 [21:41<42:19, 15.77s/instance]n=8 3regular seed=19:  33%|███▎      | 80/240 [21:56<41:12, 15.45s/instance]n=8 3regular seed=20:  33%|███▎      | 80/240 [21:56<41:12, 15.45s/instance]n=8 3regular seed=20:  34%|███▍      | 81/240 [22:10<40:01, 15.10s/instance]n=8 3regular seed=21:  34%|███▍      | 81/240 [22:10<40:01, 15.10s/instance]n=8 3regular seed=21:  34%|███▍      | 82/240 [22:25<39:29, 15.00s/instance]n=8 3regular seed=22:  34%|███▍      | 82/240 [22:25<39:29, 15.00s/instance]n=8 3regular seed=22:  35%|███▍      | 83/240 [22:39<38:37, 14.76s/instance]n=8 3regular seed=23:  35%|███▍      | 83/240 [22:39<38:37, 14.76s/instance]n=8 3regular seed=23:  35%|███▌      | 84/240 [22:54<38:05, 14.65s/instance]n=8 3regular seed=24:  35%|███▌      | 84/240 [22:54<38:05, 14.65s/instance]n=8 3regular seed=24:  35%|███▌      | 85/240 [23:07<37:13, 14.41s/instance]n=8 3regular seed=25:  35%|███▌      | 85/240 [23:07<37:13, 14.41s/instance]n=8 3regular seed=25:  36%|███▌      | 86/240 [23:21<36:25, 14.19s/instance]n=8 3regular seed=26:  36%|███▌      | 86/240 [23:21<36:25, 14.19s/instance]n=8 3regular seed=26:  36%|███▋      | 87/240 [23:35<36:05, 14.16s/instance]n=8 3regular seed=27:  36%|███▋      | 87/240 [23:35<36:05, 14.16s/instance]n=8 3regular seed=27:  37%|███▋      | 88/240 [23:49<35:38, 14.07s/instance]n=8 3regular seed=28:  37%|███▋      | 88/240 [23:49<35:38, 14.07s/instance]n=8 3regular seed=28:  37%|███▋      | 89/240 [24:03<35:13, 14.00s/instance]n=8 3regular seed=29:  37%|███▋      | 89/240 [24:03<35:13, 14.00s/instance]n=8 3regular seed=29:  38%|███▊      | 90/240 [24:16<34:36, 13.84s/instance]n=8 erdos_renyi seed=0:  38%|███▊      | 90/240 [24:16<34:36, 13.84s/instance]n=8 erdos_renyi seed=0:  38%|███▊      | 91/240 [24:29<33:39, 13.56s/instance]n=8 erdos_renyi seed=1:  38%|███▊      | 91/240 [24:29<33:39, 13.56s/instance]n=8 erdos_renyi seed=1:  38%|███▊      | 92/240 [24:44<34:34, 14.02s/instance]n=8 erdos_renyi seed=2:  38%|███▊      | 92/240 [24:44<34:34, 14.02s/instance]n=8 erdos_renyi seed=2:  39%|███▉      | 93/240 [24:58<33:53, 13.83s/instance]n=8 erdos_renyi seed=3:  39%|███▉      | 93/240 [24:58<33:53, 13.83s/instance]n=8 erdos_renyi seed=3:  39%|███▉      | 94/240 [25:12<34:05, 14.01s/instance]n=8 erdos_renyi seed=4:  39%|███▉      | 94/240 [25:12<34:05, 14.01s/instance]n=8 erdos_renyi seed=4:  40%|███▉      | 95/240 [25:25<32:47, 13.57s/instance]n=8 erdos_renyi seed=5:  40%|███▉      | 95/240 [25:25<32:47, 13.57s/instance]n=8 erdos_renyi seed=5:  40%|████      | 96/240 [25:36<31:10, 12.99s/instance]n=8 erdos_renyi seed=6:  40%|████      | 96/240 [25:36<31:10, 12.99s/instance]n=8 erdos_renyi seed=6:  40%|████      | 97/240 [25:48<29:47, 12.50s/instance]n=8 erdos_renyi seed=7:  40%|████      | 97/240 [25:48<29:47, 12.50s/instance]n=8 erdos_renyi seed=7:  41%|████      | 98/240 [26:03<31:19, 13.24s/instance]n=8 erdos_renyi seed=8:  41%|████      | 98/240 [26:03<31:19, 13.24s/instance]n=8 erdos_renyi seed=8:  41%|████▏     | 99/240 [26:18<32:20, 13.76s/instance]n=8 erdos_renyi seed=9:  41%|████▏     | 99/240 [26:18<32:20, 13.76s/instance]n=8 erdos_renyi seed=9:  42%|████▏     | 100/240 [26:33<33:34, 14.39s/instance]n=8 erdos_renyi seed=10:  42%|████▏     | 100/240 [26:33<33:34, 14.39s/instance]n=8 erdos_renyi seed=10:  42%|████▏     | 101/240 [26:44<30:58, 13.37s/instance]n=8 erdos_renyi seed=11:  42%|████▏     | 101/240 [26:44<30:58, 13.37s/instance]n=8 erdos_renyi seed=11:  42%|████▎     | 102/240 [26:58<30:35, 13.30s/instance]n=8 erdos_renyi seed=12:  42%|████▎     | 102/240 [26:58<30:35, 13.30s/instance]n=8 erdos_renyi seed=12:  43%|████▎     | 103/240 [27:13<31:31, 13.81s/instance]n=8 erdos_renyi seed=13:  43%|████▎     | 103/240 [27:13<31:31, 13.81s/instance]n=8 erdos_renyi seed=13:  43%|████▎     | 104/240 [27:27<31:43, 14.00s/instance]n=8 erdos_renyi seed=14:  43%|████▎     | 104/240 [27:27<31:43, 14.00s/instance]n=8 erdos_renyi seed=14:  44%|████▍     | 105/240 [27:57<42:05, 18.71s/instance]n=8 erdos_renyi seed=15:  44%|████▍     | 105/240 [27:57<42:05, 18.71s/instance]n=8 erdos_renyi seed=15:  44%|████▍     | 106/240 [28:28<50:30, 22.61s/instance]n=8 erdos_renyi seed=16:  44%|████▍     | 106/240 [28:28<50:30, 22.61s/instance]n=8 erdos_renyi seed=16:  45%|████▍     | 107/240 [29:11<1:03:28, 28.64s/instance]n=8 erdos_renyi seed=17:  45%|████▍     | 107/240 [29:11<1:03:28, 28.64s/instance]n=8 erdos_renyi seed=17:  45%|████▌     | 108/240 [29:29<56:06, 25.51s/instance]  n=8 erdos_renyi seed=18:  45%|████▌     | 108/240 [29:29<56:06, 25.51s/instance]n=8 erdos_renyi seed=18:  45%|████▌     | 109/240 [29:54<55:14, 25.30s/instance]n=8 erdos_renyi seed=19:  45%|████▌     | 109/240 [29:54<55:14, 25.30s/instance]n=8 erdos_renyi seed=19:  46%|████▌     | 110/240 [30:20<55:26, 25.59s/instance]n=8 erdos_renyi seed=20:  46%|████▌     | 110/240 [30:20<55:26, 25.59s/instance]n=8 erdos_renyi seed=20:  46%|████▋     | 111/240 [30:42<52:36, 24.47s/instance]n=8 erdos_renyi seed=21:  46%|████▋     | 111/240 [30:42<52:36, 24.47s/instance]n=8 erdos_renyi seed=21:  47%|████▋     | 112/240 [31:09<53:20, 25.01s/instance]n=8 erdos_renyi seed=22:  47%|████▋     | 112/240 [31:09<53:20, 25.01s/instance]n=8 erdos_renyi seed=22:  47%|████▋     | 113/240 [31:38<55:42, 26.32s/instance]n=8 erdos_renyi seed=23:  47%|████▋     | 113/240 [31:38<55:42, 26.32s/instance]n=8 erdos_renyi seed=23:  48%|████▊     | 114/240 [32:03<54:15, 25.84s/instance]n=8 erdos_renyi seed=24:  48%|████▊     | 114/240 [32:03<54:15, 25.84s/instance]n=8 erdos_renyi seed=24:  48%|████▊     | 115/240 [32:21<49:09, 23.60s/instance]n=8 erdos_renyi seed=25:  48%|████▊     | 115/240 [32:21<49:09, 23.60s/instance]n=8 erdos_renyi seed=26:  48%|████▊     | 115/240 [32:21<49:09, 23.60s/instance]n=8 erdos_renyi seed=26:  49%|████▉     | 117/240 [32:39<34:44, 16.94s/instance]n=8 erdos_renyi seed=27:  49%|████▉     | 117/240 [32:39<34:44, 16.94s/instance]n=8 erdos_renyi seed=27:  49%|████▉     | 118/240 [32:59<35:37, 17.52s/instance]n=8 erdos_renyi seed=28:  49%|████▉     | 118/240 [32:59<35:37, 17.52s/instance]n=8 erdos_renyi seed=28:  50%|████▉     | 119/240 [33:27<40:53, 20.27s/instance]n=8 erdos_renyi seed=29:  50%|████▉     | 119/240 [33:27<40:53, 20.27s/instance]n=8 erdos_renyi seed=29:  50%|█████     | 120/240 [33:59<47:10, 23.59s/instance]n=10 3regular seed=0:  50%|█████     | 120/240 [33:59<47:10, 23.59s/instance]   n=10 3regular seed=0:  50%|█████     | 121/240 [35:12<1:14:15, 37.44s/instance]n=10 3regular seed=1:  50%|█████     | 121/240 [35:12<1:14:15, 37.44s/instance]n=10 3regular seed=1:  51%|█████     | 122/240 [36:23<1:32:31, 47.05s/instance]n=10 3regular seed=2:  51%|█████     | 122/240 [36:23<1:32:31, 47.05s/instance]n=10 3regular seed=2:  51%|█████▏    | 123/240 [37:36<1:46:24, 54.57s/instance]n=10 3regular seed=3:  51%|█████▏    | 123/240 [37:36<1:46:24, 54.57s/instance]n=10 3regular seed=3:  52%|█████▏    | 124/240 [38:57<2:00:26, 62.30s/instance]n=10 3regular seed=4:  52%|█████▏    | 124/240 [38:57<2:00:26, 62.30s/instance]n=10 3regular seed=4:  52%|█████▏    | 125/240 [40:20<2:11:01, 68.36s/instance]n=10 3regular seed=5:  52%|█████▏    | 125/240 [40:20<2:11:01, 68.36s/instance]n=10 3regular seed=5:  52%|█████▎    | 126/240 [41:41<2:16:49, 72.01s/instance]n=10 3regular seed=6:  52%|█████▎    | 126/240 [41:41<2:16:49, 72.01s/instance]n=10 3regular seed=6:  53%|█████▎    | 127/240 [43:07<2:23:48, 76.36s/instance]n=10 3regular seed=7:  53%|█████▎    | 127/240 [43:07<2:23:48, 76.36s/instance]n=10 3regular seed=7:  53%|█████▎    | 128/240 [44:14<2:16:53, 73.34s/instance]n=10 3regular seed=8:  53%|█████▎    | 128/240 [44:14<2:16:53, 73.34s/instance]n=10 3regular seed=8:  54%|█████▍    | 129/240 [45:22<2:12:57, 71.87s/instance]n=10 3regular seed=9:  54%|█████▍    | 129/240 [45:22<2:12:57, 71.87s/instance]n=10 3regular seed=9:  54%|█████▍    | 130/240 [46:29<2:08:51, 70.28s/instance]n=10 3regular seed=10:  54%|█████▍    | 130/240 [46:29<2:08:51, 70.28s/instance]n=10 3regular seed=10:  55%|█████▍    | 131/240 [47:43<2:09:36, 71.35s/instance]n=10 3regular seed=11:  55%|█████▍    | 131/240 [47:43<2:09:36, 71.35s/instance]n=10 3regular seed=11:  55%|█████▌    | 132/240 [54:01<4:53:54, 163.28s/instance]n=10 3regular seed=12:  55%|█████▌    | 132/240 [54:01<4:53:54, 163.28s/instance]n=10 3regular seed=12:  55%|█████▌    | 133/240 [1:06:19<9:58:44, 335.75s/instance]n=10 3regular seed=13:  55%|█████▌    | 133/240 [1:06:19<9:58:44, 335.75s/instance]n=10 3regular seed=13:  56%|█████▌    | 134/240 [1:07:41<7:38:25, 259.49s/instance]n=10 3regular seed=14:  56%|█████▌    | 134/240 [1:07:41<7:38:25, 259.49s/instance]n=10 3regular seed=14:  56%|█████▋    | 135/240 [1:08:57<5:57:42, 204.41s/instance]n=10 3regular seed=15:  56%|█████▋    | 135/240 [1:08:57<5:57:42, 204.41s/instance]n=10 3regular seed=15:  57%|█████▋    | 136/240 [1:10:08<4:45:13, 164.55s/instance]n=10 3regular seed=16:  57%|█████▋    | 136/240 [1:10:08<4:45:13, 164.55s/instance]n=10 3regular seed=16:  57%|█████▋    | 137/240 [1:11:29<3:59:13, 139.36s/instance]n=10 3regular seed=17:  57%|█████▋    | 137/240 [1:11:29<3:59:13, 139.36s/instance]n=10 3regular seed=17:  57%|█████▊    | 138/240 [1:12:55<3:29:45, 123.39s/instance]n=10 3regular seed=18:  57%|█████▊    | 138/240 [1:12:55<3:29:45, 123.39s/instance]n=10 3regular seed=18:  58%|█████▊    | 139/240 [1:14:17<3:07:07, 111.16s/instance]n=10 3regular seed=19:  58%|█████▊    | 139/240 [1:14:17<3:07:07, 111.16s/instance]n=10 3regular seed=19:  58%|█████▊    | 140/240 [1:15:40<2:50:55, 102.55s/instance]n=10 3regular seed=20:  58%|█████▊    | 140/240 [1:15:40<2:50:55, 102.55s/instance]n=10 3regular seed=20:  59%|█████▉    | 141/240 [1:17:06<2:40:59, 97.57s/instance] n=10 3regular seed=21:  59%|█████▉    | 141/240 [1:17:06<2:40:59, 97.57s/instance]n=10 3regular seed=21:  59%|█████▉    | 142/240 [1:18:33<2:34:14, 94.43s/instance]n=10 3regular seed=22:  59%|█████▉    | 142/240 [1:18:33<2:34:14, 94.43s/instance]n=10 3regular seed=22:  60%|█████▉    | 143/240 [1:20:05<2:31:16, 93.57s/instance]n=10 3regular seed=23:  60%|█████▉    | 143/240 [1:20:05<2:31:16, 93.57s/instance]n=10 3regular seed=23:  60%|██████    | 144/240 [1:21:30<2:25:48, 91.13s/instance]n=10 3regular seed=24:  60%|██████    | 144/240 [1:21:30<2:25:48, 91.13s/instance]n=10 3regular seed=24:  60%|██████    | 145/240 [1:22:53<2:20:36, 88.80s/instance]n=10 3regular seed=25:  60%|██████    | 145/240 [1:22:53<2:20:36, 88.80s/instance]n=10 3regular seed=25:  61%|██████    | 146/240 [1:24:19<2:17:48, 87.96s/instance]n=10 3regular seed=26:  61%|██████    | 146/240 [1:24:19<2:17:48, 87.96s/instance]n=10 3regular seed=26:  61%|██████▏   | 147/240 [1:25:37<2:11:45, 85.01s/instance]n=10 3regular seed=27:  61%|██████▏   | 147/240 [1:25:37<2:11:45, 85.01s/instance]n=10 3regular seed=27:  62%|██████▏   | 148/240 [1:27:01<2:09:28, 84.44s/instance]n=10 3regular seed=28:  62%|██████▏   | 148/240 [1:27:01<2:09:28, 84.44s/instance]n=10 3regular seed=28:  62%|██████▏   | 149/240 [1:28:16<2:04:10, 81.88s/instance]n=10 3regular seed=29:  62%|██████▏   | 149/240 [1:28:16<2:04:10, 81.88s/instance]n=10 3regular seed=29:  62%|██████▎   | 150/240 [1:29:29<1:58:40, 79.12s/instance]n=10 erdos_renyi seed=0:  62%|██████▎   | 150/240 [1:29:29<1:58:40, 79.12s/instance]n=10 erdos_renyi seed=0:  63%|██████▎   | 151/240 [1:30:35<1:51:30, 75.18s/instance]n=10 erdos_renyi seed=1:  63%|██████▎   | 151/240 [1:30:35<1:51:30, 75.18s/instance]n=10 erdos_renyi seed=1:  63%|██████▎   | 152/240 [1:32:23<2:04:36, 84.96s/instance]n=10 erdos_renyi seed=2:  63%|██████▎   | 152/240 [1:32:23<2:04:36, 84.96s/instance]n=10 erdos_renyi seed=2:  64%|██████▍   | 153/240 [1:33:37<1:58:33, 81.77s/instance]n=10 erdos_renyi seed=3:  64%|██████▍   | 153/240 [1:33:37<1:58:33, 81.77s/instance]n=10 erdos_renyi seed=3:  64%|██████▍   | 154/240 [1:34:55<1:55:22, 80.49s/instance]n=10 erdos_renyi seed=4:  64%|██████▍   | 154/240 [1:34:55<1:55:22, 80.49s/instance]n=10 erdos_renyi seed=4:  65%|██████▍   | 155/240 [1:36:20<1:55:56, 81.84s/instance]n=10 erdos_renyi seed=5:  65%|██████▍   | 155/240 [1:36:20<1:55:56, 81.84s/instance]n=10 erdos_renyi seed=5:  65%|██████▌   | 156/240 [1:37:53<1:59:32, 85.38s/instance]n=10 erdos_renyi seed=6:  65%|██████▌   | 156/240 [1:37:53<1:59:32, 85.38s/instance]n=10 erdos_renyi seed=6:  65%|██████▌   | 157/240 [1:39:09<1:53:53, 82.33s/instance]n=10 erdos_renyi seed=7:  65%|██████▌   | 157/240 [1:39:09<1:53:53, 82.33s/instance]n=10 erdos_renyi seed=7:  66%|██████▌   | 158/240 [1:41:33<2:17:48, 100.83s/instance]n=10 erdos_renyi seed=8:  66%|██████▌   | 158/240 [1:41:33<2:17:48, 100.83s/instance]n=10 erdos_renyi seed=8:  66%|██████▋   | 159/240 [1:43:11<2:15:02, 100.03s/instance]n=10 erdos_renyi seed=9:  66%|██████▋   | 159/240 [1:43:11<2:15:02, 100.03s/instance]n=10 erdos_renyi seed=9:  67%|██████▋   | 160/240 [1:44:40<2:09:11, 96.90s/instance] n=10 erdos_renyi seed=10:  67%|██████▋   | 160/240 [1:44:40<2:09:11, 96.90s/instance]n=10 erdos_renyi seed=10:  67%|██████▋   | 161/240 [1:46:01<2:01:00, 91.91s/instance]n=10 erdos_renyi seed=11:  67%|██████▋   | 161/240 [1:46:01<2:01:00, 91.91s/instance]n=10 erdos_renyi seed=11:  68%|██████▊   | 162/240 [1:47:33<1:59:46, 92.13s/instance]n=10 erdos_renyi seed=12:  68%|██████▊   | 162/240 [1:47:33<1:59:46, 92.13s/instance]n=10 erdos_renyi seed=12:  68%|██████▊   | 163/240 [1:49:13<2:01:06, 94.37s/instance]n=10 erdos_renyi seed=13:  68%|██████▊   | 163/240 [1:49:13<2:01:06, 94.37s/instance]n=10 erdos_renyi seed=13:  68%|██████▊   | 164/240 [1:50:38<1:56:10, 91.72s/instance]n=10 erdos_renyi seed=14:  68%|██████▊   | 164/240 [1:50:38<1:56:10, 91.72s/instance]n=10 erdos_renyi seed=14:  69%|██████▉   | 165/240 [1:52:21<1:58:49, 95.06s/instance]n=10 erdos_renyi seed=15:  69%|██████▉   | 165/240 [1:52:21<1:58:49, 95.06s/instance]n=10 erdos_renyi seed=15:  69%|██████▉   | 166/240 [1:54:00<1:58:39, 96.21s/instance]n=10 erdos_renyi seed=16:  69%|██████▉   | 166/240 [1:54:00<1:58:39, 96.21s/instance]n=10 erdos_renyi seed=16:  70%|██████▉   | 167/240 [1:55:48<2:01:24, 99.79s/instance]n=10 erdos_renyi seed=17:  70%|██████▉   | 167/240 [1:55:48<2:01:24, 99.79s/instance]n=10 erdos_renyi seed=17:  70%|███████   | 168/240 [1:57:02<1:50:18, 91.93s/instance]n=10 erdos_renyi seed=18:  70%|███████   | 168/240 [1:57:02<1:50:18, 91.93s/instance]n=10 erdos_renyi seed=18:  70%|███████   | 169/240 [1:58:32<1:48:18, 91.53s/instance]n=10 erdos_renyi seed=19:  70%|███████   | 169/240 [1:58:32<1:48:18, 91.53s/instance]n=10 erdos_renyi seed=19:  71%|███████   | 170/240 [2:00:08<1:48:10, 92.73s/instance]n=10 erdos_renyi seed=20:  71%|███████   | 170/240 [2:00:08<1:48:10, 92.73s/instance]n=10 erdos_renyi seed=20:  71%|███████▏  | 171/240 [2:01:52<1:50:26, 96.03s/instance]n=10 erdos_renyi seed=21:  71%|███████▏  | 171/240 [2:01:52<1:50:26, 96.03s/instance]n=10 erdos_renyi seed=21:  72%|███████▏  | 172/240 [2:03:40<1:52:52, 99.59s/instance]n=10 erdos_renyi seed=22:  72%|███████▏  | 172/240 [2:03:40<1:52:52, 99.59s/instance]n=10 erdos_renyi seed=23:  72%|███████▏  | 172/240 [2:03:40<1:52:52, 99.59s/instance]n=10 erdos_renyi seed=23:  72%|███████▎  | 174/240 [2:05:20<1:24:30, 76.82s/instance]n=10 erdos_renyi seed=24:  72%|███████▎  | 174/240 [2:05:20<1:24:30, 76.82s/instance]n=10 erdos_renyi seed=24:  73%|███████▎  | 175/240 [2:06:30<1:21:27, 75.20s/instance]n=10 erdos_renyi seed=25:  73%|███████▎  | 175/240 [2:06:30<1:21:27, 75.20s/instance]n=10 erdos_renyi seed=25:  73%|███████▎  | 176/240 [2:08:22<1:30:23, 84.74s/instance]n=10 erdos_renyi seed=26:  73%|███████▎  | 176/240 [2:08:22<1:30:23, 84.74s/instance]n=10 erdos_renyi seed=26:  74%|███████▍  | 177/240 [2:09:37<1:26:07, 82.03s/instance]n=10 erdos_renyi seed=27:  74%|███████▍  | 177/240 [2:09:37<1:26:07, 82.03s/instance]n=10 erdos_renyi seed=27:  74%|███████▍  | 178/240 [2:10:51<1:22:28, 79.82s/instance]n=10 erdos_renyi seed=28:  74%|███████▍  | 178/240 [2:10:51<1:22:28, 79.82s/instance]n=10 erdos_renyi seed=28:  75%|███████▍  | 179/240 [2:13:00<1:35:31, 93.96s/instance]n=10 erdos_renyi seed=29:  75%|███████▍  | 179/240 [2:13:00<1:35:31, 93.96s/instance]n=10 erdos_renyi seed=29:  75%|███████▌  | 180/240 [2:14:31<1:33:01, 93.02s/instance]n=12 3regular seed=0:  75%|███████▌  | 180/240 [2:14:31<1:33:01, 93.02s/instance]    n=12 3regular seed=0:  75%|███████▌  | 181/240 [2:18:51<2:19:28, 141.84s/instance]n=12 3regular seed=1:  75%|███████▌  | 181/240 [2:18:51<2:19:28, 141.84s/instance]n=12 3regular seed=1:  76%|███████▌  | 182/240 [2:22:38<2:41:29, 167.06s/instance]n=12 3regular seed=2:  76%|███████▌  | 182/240 [2:22:38<2:41:29, 167.06s/instance]n=12 3regular seed=2:  76%|███████▋  | 183/240 [2:26:42<3:00:24, 189.91s/instance]n=12 3regular seed=3:  76%|███████▋  | 183/240 [2:26:42<3:00:24, 189.91s/instance]n=12 3regular seed=3:  77%|███████▋  | 184/240 [2:46:26<7:33:11, 485.56s/instance]n=12 3regular seed=4:  77%|███████▋  | 184/240 [2:46:26<7:33:11, 485.56s/instance]n=12 3regular seed=4:  77%|███████▋  | 185/240 [3:06:42<10:44:41, 703.29s/instance]n=12 3regular seed=5:  77%|███████▋  | 185/240 [3:06:42<10:44:41, 703.29s/instance]n=12 3regular seed=5:  78%|███████▊  | 186/240 [3:10:09<8:19:34, 555.08s/instance] n=12 3regular seed=6:  78%|███████▊  | 186/240 [3:10:09<8:19:34, 555.08s/instance]n=12 3regular seed=6:  78%|███████▊  | 187/240 [3:13:58<6:44:12, 457.60s/instance]n=12 3regular seed=7:  78%|███████▊  | 187/240 [3:13:58<6:44:12, 457.60s/instance]n=12 3regular seed=7:  78%|███████▊  | 188/240 [3:17:53<5:38:40, 390.78s/instance]n=12 3regular seed=8:  78%|███████▊  | 188/240 [3:17:53<5:38:40, 390.78s/instance]n=12 3regular seed=8:  79%|███████▉  | 189/240 [3:21:57<4:54:51, 346.88s/instance]n=12 3regular seed=9:  79%|███████▉  | 189/240 [3:21:57<4:54:51, 346.88s/instance]n=12 3regular seed=9:  79%|███████▉  | 190/240 [3:25:50<4:20:41, 312.84s/instance]n=12 3regular seed=10:  79%|███████▉  | 190/240 [3:25:50<4:20:41, 312.84s/instance]n=12 3regular seed=10:  80%|███████▉  | 191/240 [3:29:50<3:57:36, 290.94s/instance]n=12 3regular seed=11:  80%|███████▉  | 191/240 [3:29:50<3:57:36, 290.94s/instance]n=12 3regular seed=11:  80%|████████  | 192/240 [3:33:40<3:38:02, 272.56s/instance]n=12 3regular seed=12:  80%|████████  | 192/240 [3:33:40<3:38:02, 272.56s/instance]n=12 3regular seed=12:  80%|████████  | 193/240 [3:37:06<3:18:00, 252.77s/instance]n=12 3regular seed=13:  80%|████████  | 193/240 [3:37:06<3:18:00, 252.77s/instance]n=12 3regular seed=13:  81%|████████  | 194/240 [3:40:58<3:08:59, 246.50s/instance]n=12 3regular seed=14:  81%|████████  | 194/240 [3:40:58<3:08:59, 246.50s/instance]n=12 3regular seed=14:  81%|████████▏ | 195/240 [3:45:04<3:04:50, 246.45s/instance]n=12 3regular seed=15:  81%|████████▏ | 195/240 [3:45:04<3:04:50, 246.45s/instance]n=12 3regular seed=15:  82%|████████▏ | 196/240 [3:48:59<2:58:03, 242.81s/instance]n=12 3regular seed=16:  82%|████████▏ | 196/240 [3:48:59<2:58:03, 242.81s/instance]n=12 3regular seed=16:  82%|████████▏ | 197/240 [3:53:07<2:55:16, 244.56s/instance]n=12 3regular seed=17:  82%|████████▏ | 197/240 [3:53:07<2:55:16, 244.56s/instance]n=12 3regular seed=17:  82%|████████▎ | 198/240 [3:57:04<2:49:34, 242.25s/instance]n=12 3regular seed=18:  82%|████████▎ | 198/240 [3:57:04<2:49:34, 242.25s/instance]n=12 3regular seed=18:  83%|████████▎ | 199/240 [4:00:43<2:40:49, 235.36s/instance]n=12 3regular seed=19:  83%|████████▎ | 199/240 [4:00:43<2:40:49, 235.36s/instance]n=12 3regular seed=19:  83%|████████▎ | 200/240 [4:04:41<2:37:19, 235.98s/instance]n=12 3regular seed=20:  83%|████████▎ | 200/240 [4:04:41<2:37:19, 235.98s/instance]n=12 3regular seed=20:  84%|████████▍ | 201/240 [4:51:21<10:53:18, 1005.09s/instance]n=12 3regular seed=21:  84%|████████▍ | 201/240 [4:51:21<10:53:18, 1005.09s/instance]n=12 3regular seed=21:  84%|████████▍ | 202/240 [5:52:06<18:58:14, 1797.22s/instance]n=12 3regular seed=22:  84%|████████▍ | 202/240 [5:52:06<18:58:14, 1797.22s/instance]n=12 3regular seed=22:  85%|████████▍ | 203/240 [6:28:38<19:41:22, 1915.75s/instance]n=12 3regular seed=23:  85%|████████▍ | 203/240 [6:28:38<19:41:22, 1915.75s/instance]n=12 3regular seed=23:  85%|████████▌ | 204/240 [7:00:43<19:11:06, 1918.52s/instance]n=12 3regular seed=24:  85%|████████▌ | 204/240 [7:00:43<19:11:06, 1918.52s/instance]n=12 3regular seed=24:  85%|████████▌ | 205/240 [8:08:49<24:58:21, 2568.61s/instance]n=12 3regular seed=25:  85%|████████▌ | 205/240 [8:08:49<24:58:21, 2568.61s/instance]n=12 3regular seed=25:  86%|████████▌ | 206/240 [8:43:06<22:48:30, 2415.00s/instance]n=12 3regular seed=26:  86%|████████▌ | 206/240 [8:43:06<22:48:30, 2415.00s/instance]n=12 3regular seed=26:  86%|████████▋ | 207/240 [9:56:18<27:34:27, 3008.11s/instance]n=12 3regular seed=27:  86%|████████▋ | 207/240 [9:56:18<27:34:27, 3008.11s/instance]n=12 3regular seed=27:  87%|████████▋ | 208/240 [10:00:57<19:27:41, 2189.41s/instance]n=12 3regular seed=28:  87%|████████▋ | 208/240 [10:00:57<19:27:41, 2189.41s/instance]n=12 3regular seed=28:  87%|████████▋ | 209/240 [10:05:33<13:54:42, 1615.56s/instance]n=12 3regular seed=29:  87%|████████▋ | 209/240 [10:05:33<13:54:42, 1615.56s/instance]n=12 3regular seed=29:  88%|████████▊ | 210/240 [10:09:29<10:00:51, 1201.70s/instance]n=12 erdos_renyi seed=0:  88%|████████▊ | 210/240 [10:09:29<10:00:51, 1201.70s/instance]n=12 erdos_renyi seed=0:  88%|████████▊ | 211/240 [10:15:08<7:35:41, 942.79s/instance]  n=12 erdos_renyi seed=1:  88%|████████▊ | 211/240 [10:15:08<7:35:41, 942.79s/instance]n=12 erdos_renyi seed=1:  88%|████████▊ | 212/240 [10:21:46<6:03:46, 779.51s/instance]n=12 erdos_renyi seed=2:  88%|████████▊ | 212/240 [10:21:46<6:03:46, 779.51s/instance]n=12 erdos_renyi seed=2:  89%|████████▉ | 213/240 [10:27:45<4:53:53, 653.08s/instance]n=12 erdos_renyi seed=3:  89%|████████▉ | 213/240 [10:27:45<4:53:53, 653.08s/instance]n=12 erdos_renyi seed=3:  89%|████████▉ | 214/240 [10:46:44<5:46:11, 798.89s/instance]n=12 erdos_renyi seed=4:  89%|████████▉ | 214/240 [10:46:44<5:46:11, 798.89s/instance]n=12 erdos_renyi seed=4:  90%|████████▉ | 215/240 [11:12:58<7:09:51, 1031.68s/instance]n=12 erdos_renyi seed=5:  90%|████████▉ | 215/240 [11:12:58<7:09:51, 1031.68s/instance]n=12 erdos_renyi seed=5:  90%|█████████ | 216/240 [11:19:04<5:32:45, 831.89s/instance] n=12 erdos_renyi seed=6:  90%|█████████ | 216/240 [11:19:04<5:32:45, 831.89s/instance]n=12 erdos_renyi seed=6:  90%|█████████ | 217/240 [11:26:09<4:32:01, 709.62s/instance]n=12 erdos_renyi seed=7:  90%|█████████ | 217/240 [11:26:09<4:32:01, 709.62s/instance]n=12 erdos_renyi seed=7:  91%|█████████ | 218/240 [11:32:57<3:47:00, 619.13s/instance]n=12 erdos_renyi seed=8:  91%|█████████ | 218/240 [11:32:57<3:47:00, 619.13s/instance]n=12 erdos_renyi seed=8:  91%|█████████▏| 219/240 [11:39:09<3:10:50, 545.26s/instance]n=12 erdos_renyi seed=9:  91%|█████████▏| 219/240 [11:39:09<3:10:50, 545.26s/instance]n=12 erdos_renyi seed=9:  92%|█████████▏| 220/240 [11:46:00<2:48:15, 504.76s/instance]n=12 erdos_renyi seed=10:  92%|█████████▏| 220/240 [11:46:00<2:48:15, 504.76s/instance]n=12 erdos_renyi seed=10:  92%|█████████▏| 221/240 [11:53:09<2:32:42, 482.22s/instance]n=12 erdos_renyi seed=11:  92%|█████████▏| 221/240 [11:53:09<2:32:42, 482.22s/instance]n=12 erdos_renyi seed=11:  92%|█████████▎| 222/240 [12:02:43<2:32:53, 509.65s/instance]n=12 erdos_renyi seed=12:  92%|█████████▎| 222/240 [12:02:43<2:32:53, 509.65s/instance]n=12 erdos_renyi seed=12:  93%|█████████▎| 223/240 [12:12:37<2:31:33, 534.93s/instance]n=12 erdos_renyi seed=13:  93%|█████████▎| 223/240 [12:12:37<2:31:33, 534.93s/instance]n=12 erdos_renyi seed=13:  93%|█████████▎| 224/240 [12:19:40<2:13:43, 501.48s/instance]n=12 erdos_renyi seed=14:  93%|█████████▎| 224/240 [12:19:40<2:13:43, 501.48s/instance]n=12 erdos_renyi seed=14:  94%|█████████▍| 225/240 [12:40:08<2:59:50, 719.40s/instance]n=12 erdos_renyi seed=15:  94%|█████████▍| 225/240 [12:40:08<2:59:50, 719.40s/instance]n=12 erdos_renyi seed=15:  94%|█████████▍| 226/240 [12:47:13<2:27:12, 630.91s/instance]n=12 erdos_renyi seed=16:  94%|█████████▍| 226/240 [12:47:13<2:27:12, 630.91s/instance]n=12 erdos_renyi seed=16:  95%|█████████▍| 227/240 [13:14:37<3:22:33, 934.86s/instance]n=12 erdos_renyi seed=17:  95%|█████████▍| 227/240 [13:14:37<3:22:33, 934.86s/instance]n=12 erdos_renyi seed=17:  95%|█████████▌| 228/240 [13:48:35<4:13:09, 1265.79s/instance]n=12 erdos_renyi seed=18:  95%|█████████▌| 228/240 [13:48:35<4:13:09, 1265.79s/instance]n=12 erdos_renyi seed=18:  95%|█████████▌| 229/240 [14:27:33<4:51:03, 1587.63s/instance]n=12 erdos_renyi seed=19:  95%|█████████▌| 229/240 [14:27:33<4:51:03, 1587.63s/instance]n=12 erdos_renyi seed=19:  96%|█████████▌| 230/240 [14:37:37<3:35:24, 1292.48s/instance]n=12 erdos_renyi seed=20:  96%|█████████▌| 230/240 [14:37:37<3:35:24, 1292.48s/instance]n=12 erdos_renyi seed=20:  96%|█████████▋| 231/240 [14:53:17<2:57:59, 1186.57s/instance]n=12 erdos_renyi seed=21:  96%|█████████▋| 231/240 [14:53:17<2:57:59, 1186.57s/instance]n=12 erdos_renyi seed=21:  97%|█████████▋| 232/240 [15:02:30<2:12:53, 996.73s/instance] n=12 erdos_renyi seed=22:  97%|█████████▋| 232/240 [15:02:30<2:12:53, 996.73s/instance]n=12 erdos_renyi seed=22:  97%|█████████▋| 233/240 [15:08:12<1:33:20, 800.08s/instance]n=12 erdos_renyi seed=23:  97%|█████████▋| 233/240 [15:08:12<1:33:20, 800.08s/instance]n=12 erdos_renyi seed=23:  98%|█████████▊| 234/240 [15:48:50<2:09:09, 1291.55s/instance]n=12 erdos_renyi seed=24:  98%|█████████▊| 234/240 [15:48:50<2:09:09, 1291.55s/instance]n=12 erdos_renyi seed=24:  98%|█████████▊| 235/240 [16:08:02<1:44:08, 1249.60s/instance]n=12 erdos_renyi seed=25:  98%|█████████▊| 235/240 [16:08:02<1:44:08, 1249.60s/instance]n=12 erdos_renyi seed=25:  98%|█████████▊| 236/240 [16:14:43<1:06:20, 995.09s/instance] n=12 erdos_renyi seed=26:  98%|█████████▊| 236/240 [16:14:43<1:06:20, 995.09s/instance]n=12 erdos_renyi seed=26:  99%|█████████▉| 237/240 [16:27:46<46:34, 931.51s/instance]  n=12 erdos_renyi seed=27:  99%|█████████▉| 237/240 [16:27:46<46:34, 931.51s/instance]n=12 erdos_renyi seed=27:  99%|█████████▉| 238/240 [16:34:49<25:58, 779.03s/instance]n=12 erdos_renyi seed=28:  99%|█████████▉| 238/240 [16:34:49<25:58, 779.03s/instance]n=12 erdos_renyi seed=28: 100%|█████████▉| 239/240 [16:41:21<11:02, 662.94s/instance]n=12 erdos_renyi seed=29: 100%|█████████▉| 239/240 [16:41:21<11:02, 662.94s/instance]n=12 erdos_renyi seed=29: 100%|██████████| 240/240 [16:47:56<00:00, 582.37s/instance]n=12 erdos_renyi seed=29: 100%|██████████| 240/240 [16:47:56<00:00, 251.98s/instance]
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+  INFO: IBM_QUANTUM_TOKEN not set. Skipping hardware run.
+
+Benchmark complete.
+  1160 total records saved.
+  JSON: /Users/arhaansareen/qsys-paper/code/results/benchmark_results.json
+  CSV:  /Users/arhaansareen/qsys-paper/code/results/benchmark_results.csv
+
+============================================================
+BENCHMARK SUMMARY
+============================================================
+
+n=6, graph_type=3regular:
+  p=1: noiseless=0.834, noisy=0.814, GW=1.000
+  p=2: noiseless=0.940, noisy=0.904, GW=1.000
+  p=3: noiseless=0.980, noisy=0.931, GW=1.000
+  p=4: noiseless=0.989, noisy=0.931, GW=1.000
+  p=5: noiseless=0.992, noisy=0.921, GW=1.000
+
+n=6, graph_type=erdos_renyi:
+  p=1: noiseless=0.802, noisy=0.785, GW=1.000
+  p=2: noiseless=0.885, noisy=0.856, GW=1.000
+  p=3: noiseless=0.931, noisy=0.889, GW=1.000
+  p=4: noiseless=0.955, noisy=0.903, GW=1.000
+  p=5: noiseless=0.965, noisy=0.906, GW=1.000
+
+n=8, graph_type=3regular:
+  p=1: noiseless=0.795, noisy=0.775, GW=1.000
+  p=2: noiseless=0.875, noisy=0.844, GW=1.000
+  p=3: noiseless=0.930, noisy=0.883, GW=1.000
+  p=4: noiseless=0.941, noisy=0.885, GW=1.000
+  p=5: noiseless=0.958, noisy=0.895, GW=1.000
+
+n=8, graph_type=erdos_renyi:
+  p=1: noiseless=0.811, noisy=0.795, GW=1.000
+  p=2: noiseless=0.886, noisy=0.858, GW=1.000
+  p=3: noiseless=0.922, noisy=0.882, GW=1.000
+  p=4: noiseless=0.938, noisy=0.889, GW=1.000
+  p=5: noiseless=0.957, noisy=0.896, GW=1.000
+
+n=10, graph_type=3regular:
+  p=1: noiseless=0.786, noisy=0.766, GW=1.000
+  p=2: noiseless=0.868, noisy=0.835, GW=1.000
+  p=3: noiseless=0.907, noisy=0.862, GW=1.000
+  p=4: noiseless=0.927, noisy=0.871, GW=1.000
+  p=5: noiseless=0.937, noisy=0.871, GW=1.000
+
+n=10, graph_type=erdos_renyi:
+  p=1: noiseless=0.815, noisy=0.801, GW=1.000
+  p=2: noiseless=0.881, noisy=0.854, GW=1.000
+  p=3: noiseless=0.911, noisy=0.873, GW=1.000
+  p=4: noiseless=0.931, noisy=0.882, GW=1.000
+  p=5: noiseless=0.946, noisy=0.883, GW=1.000
+
+n=12, graph_type=3regular:
+  p=1: noiseless=0.765, noisy=0.746, GW=1.000
+  p=2: noiseless=0.845, noisy=0.813, GW=1.000
+  p=3: noiseless=0.887, noisy=0.843, GW=1.000
+  p=4: noiseless=0.904, noisy=0.849, GW=1.000
+  p=5: noiseless=0.916, noisy=0.851, GW=1.000
+
+n=12, graph_type=erdos_renyi:
+  p=1: noiseless=0.815, noisy=0.801, GW=1.000
+  p=2: noiseless=0.875, noisy=0.848, GW=1.000
+  p=3: noiseless=0.901, noisy=0.862, GW=1.000
+  p=4: noiseless=0.922, noisy=0.870, GW=1.000
+  p=5: noiseless=0.932, noisy=0.870, GW=1.000
+
+Total records collected: 1160
