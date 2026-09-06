@@ -37,9 +37,9 @@ A Hardware-Simulation Benchmarking Study}}
 The Quantum Approximate Optimization Algorithm (QAOA) is among the most studied candidates for practical utility on near-term, noisy quantum hardware. Yet a fundamental question remains open: at what circuit depth does hardware noise overwhelm the performance gains of additional QAOA layers? We introduce the concept of \emph{divergence depth} $p^*$ (the smallest circuit depth $p$ at which hardware approximation ratio diverges from noiseless simulation by more than a threshold $\delta = 0.05$) and present the first systematic empirical measurement of $p^*$ as a function of problem size $n$. We benchmark QAOA applied to the MaxCut problem on 3-regular and Erd\H{o}s-R\'enyi random graphs with $n \in \{6, 8, 10, 12\}$ qubits, sweeping circuit depth $p$ from 1 to 5. We evaluate two conditions: exact noiseless statevector simulation and a calibrated depolarizing noise model representative of IBM Eagle R3 superconducting hardware ($\varepsilon_\text{2Q} = 0.5\%$, $\varepsilon_\text{1Q} = 0.1\%$, $\varepsilon_\text{RO} = 1.0\%$). Across 30 random instances per $(n, p)$ pair, we compute approximation ratios with 95\% confidence intervals and compare against classical baselines including the Goemans-Williamson SDP (AR $\geq 0.8786$) and greedy assignment. The noisy approximation ratio peaks at $p^* = 4$ across all tested system sizes and declines thereafter, consistent with the $\mathcal{O}(\varepsilon n p)$ noise accumulation model. The divergence depth framework gives practitioners a concrete tool for calibrating circuit depth budgets on near-term devices.
 \end{abstract}
 
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 \section{Introduction}
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 
 The past decade has seen rapid growth in quantum hardware capabilities, with superconducting processors now routinely achieving gate fidelities above 99\% for single-qubit operations and 99.5\% for two-qubit gates on leading platforms \cite{preskill2018nisq}. Yet we remain firmly in what Preskill termed the Noisy Intermediate-Scale Quantum (NISQ) era \cite{preskill2018nisq}: devices of 50--1000 qubits operating without error correction, where coherent gate errors, decoherence, and measurement noise accumulate with circuit depth. The central challenge is identifying which algorithms can extract practical value from current hardware before noise overwhelms the computation.
 
@@ -51,9 +51,9 @@ We make two contributions. First, we introduce and empirically measure $p^*(n)$ 
 
 The remainder of this paper is organized as follows. Section~2 provides background on MaxCut, QAOA, classical baselines, and prior benchmarking work. Section~3 describes our experimental methodology in full reproducible detail. Section~4 presents our results. Section~5 discusses the physical interpretation of our findings and their implications for practitioners. Section~6 concludes.
 
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 \section{Background and Related Work}
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 
 \subsection{The MaxCut Problem}
 
@@ -90,9 +90,9 @@ Prior empirical benchmarks provide scattered evidence of this ceiling. Harrigan 
 
 Despite this body of work, no paper has defined or fitted $p^*(n)$ as a primary output, nor systematically validated the FakeSherbrooke noise model as a predictive tool. For comprehensive reviews, see Bharti et al.\ \cite{bharti2022noisy} and Blekos et al.\ \cite{blekos2024review}.
 
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 \section{Methodology}
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 
 \subsection{Graph Instance Generation}
 
@@ -135,9 +135,9 @@ We define the \textbf{divergence depth} $p^*(n)$ as the smallest $p$ for which
 \]
 with $\delta = 0.05$. This operationalizes the practical depth ceiling: beyond $p^*$, the noise model produces results more than 5 percentage points below the noiseless optimum for that depth.
 
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 \section{Results}
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 
 \subsection{Noiseless Simulation Baseline}
 
@@ -233,9 +233,9 @@ This depth-dependent widening directly supports the divergence depth argument: a
 grow deeper, the calibrated model increasingly misrepresents real hardware noise,
 and the true noise ceiling is reached sooner than simulation predicts.
 
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 \section{Discussion}
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 
 \subsection{Physical Interpretation of the Divergence Depth}
 
@@ -257,15 +257,15 @@ On current IBM superconducting hardware (ECR error rate $\sim 0.3$--$0.5\%$), a 
 
 The divergence depth framework is also device-agnostic. As error rates fall on newer processors (IBM Heron R2 targets $\sim 0.1$--$0.2\%$), $p^*$ should scale roughly as $1/\varepsilon$, permitting deeper circuits. Tracking $p^*(n, \varepsilon)$ across hardware generations would give a quantitative performance roadmap tied directly to device specifications.
 
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 \section{Conclusion}
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 
 We introduced the divergence depth $p^*(n)$, a directly measurable quantity marking where noise-induced degradation overtakes the gain from additional QAOA layers. Sweeping $n \in \{6, 8, 10, 12\}$ qubits and $p \in \{1, 2, 3, 4, 5\}$ layers across 30 random instances per configuration, we find $p^* = 4$ consistently under IBM Eagle R3-representative noise ($\varepsilon_{2Q} = 0.5\%$). At its best operating depth ($p = 3$), noisy QAOA reaches AR $= 0.871$ at $n = 10$, still $12.9\%$ below the Goemans-Williamson SDP; no practical advantage over polynomial-time classical algorithms is evident at these scales. Hardware validation on IBM \texttt{ibm\_fez} confirms the noise model direction, with real devices showing $\sim 0.022$--$0.033$ AR units more degradation than simulation predicts, growing with circuit depth.
 
 Beyond that, the benchmark should scale to larger $n$ on IBM Heron and Flamingo processors, incorporate error mitigation (zero-noise extrapolation, probabilistic error cancellation) to measure its effect on $p^*$, and cover graph families beyond 3-regular MaxCut. The complete codebase, raw data, and figure generation scripts are available on GitHub under the MIT license.
 
-% ─────────────────────────────────────────────
+% -----------------------------------------------
 \bibliographystyle{unsrt}
 \bibliography{bibliography}
 
