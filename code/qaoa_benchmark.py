@@ -446,7 +446,7 @@ def evaluate_circuit_noisy(G: nx.Graph, p: int, gamma: np.ndarray, beta: np.ndar
 
 
 def run_on_hardware(G: nx.Graph, p: int, gamma: np.ndarray, beta: np.ndarray,
-                    backend_name: str = "ibm_brisbane", shots: int = 4096):
+                    backend_name: str = "ibm_fez", shots: int = 4096):
     """
     Run QAOA circuit on real IBM Quantum hardware using pre-optimized angles.
     Requires IBM_QUANTUM_TOKEN environment variable to be set.
@@ -463,7 +463,7 @@ def run_on_hardware(G: nx.Graph, p: int, gamma: np.ndarray, beta: np.ndarray,
 
     n = G.number_of_nodes()
     try:
-        service = QiskitRuntimeService(channel="ibm_quantum_platform", token=token, instance="ibm-q/open/main")
+        service = QiskitRuntimeService(channel="ibm_quantum_platform", token=token, instance="open-instance")
         backend = service.backend(backend_name)
         qc = build_qaoa_circuit(G, p, gamma, beta)
         qc.measure_all()

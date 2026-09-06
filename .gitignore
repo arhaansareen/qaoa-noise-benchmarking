@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+notes/email_*.txt
+notes/meeting_notes.md
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+code/results/benchmark_intermediate.json
+.DS_Store
